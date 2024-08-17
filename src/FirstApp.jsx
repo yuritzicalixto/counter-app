@@ -13,7 +13,7 @@ const getResult2 = (a,b) => {
 }
 
 
-export const FirstApp = () => {
+export const FirstApp = ({title }) => {
   
   return (
     
@@ -25,7 +25,7 @@ export const FirstApp = () => {
           {/* <h2> { newMessage.title }</h2> */}
         {/* <h2> { newMessage.title }</h2> */}
         {/* <code>  { JSON.stringify (newMessage)}</code> */}
-        <h1>Me aburro!!!!!!</h1>
+        <h1>{ title}</h1>
         <p> { getResult(1,2) } </p>
     </>
   );
